@@ -1,9 +1,9 @@
 $(document).ready(function() {
-$("form#animalChooser").submit(function(event) {
+$("form#vacasurvey").submit(function(event) {
 
     event.preventDefault();
 
-  var animal = parseInt($("select").val());
+ var animal = parseInt($("select").val());
   console.log(animal);
 
   if (animal <= 1) {
@@ -22,4 +22,4 @@ $("form#animalChooser").submit(function(event) {
     alert("Something has gone wrong.  Try again, please.")
   }
 
-  });
+});
