@@ -1,11 +1,19 @@
-#turtle{
+#destination1{
   display: none;
 }
 
-#snake{
+#destination2{
   display: none;
 }
 
-#cheetah{
+#destination3{
+  display: none;
+}
+
+#destination4 {
+  display: none;
+}
+
+#destination5 {
   display: none;
 }
