@@ -6,7 +6,10 @@ $(document).ready(function() {
     var answer3 = parseInt($("input:radio[name=answer3]:checked").val());
     var answer4 = parseInt($("input:radio[name=answer4]:checked").val());
     var answer5 = parseInt($("input:radio[name=answer5]:checked").val());
-    var result = answer1 + answer2 + answer3 + answer4 + answer5;
+    var answer6 = parseInt($("input:radio[name=answer6]:checked").val());
+    var answer7 = parseInt($("input:radio[name=answer7]:checked").val());
+    var answer8 = parseInt($("input:radio[name=answer8]:checked").val());
+    var result = answer1 + answer2 + answer3 + answer4 + answer5 + answer6 + answer7 + answer8;
 
     if (result <= 5) {
       $("#destination1").slideDown().show();
