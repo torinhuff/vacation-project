@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Condensed" rel="stylesheet">
     <title>Vacation Calculator</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
-                <p>Which activity sounds the most fun?</p>
+                <p class="questions">Which activity sounds like the most fun?</p>
                 <div id="question1" class="radio">
                   <input type="radio" name="answer1" value="1" checked>Hiking<br>
                   <input type="radio" name="answer1" value="2">Swimming<br>
@@ -24,7 +24,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <p>Whasdkjfakfnadskfn</p>
+                <p class="questions">Whasdkjfakfnadskfn</p>
                 <div id="question2" class="radio">
                   <input type="radio" name="answer2" value="2" checked>Hiking<br>
                   <input type="radio" name="answer2" value="1">Swimming<br>
@@ -34,7 +34,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <p>kasdfaldsfjadfkja</p>
+                <p class="questions">kasdfaldsfjadfkja</p>
                 <div id="question3" class="radio">
                   <input type="radio" name="answer3" value="1" checked>Hiking<br>
                   <input type="radio" name="answer3" value="2">Swimming<br>
@@ -42,7 +42,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <p>daljdaalkdaldsk</p>
+                <p class="questions">daljdaalkdaldsk</p>
                 <div id="question4" class="radio">
                   <input type="radio" name="answer4" value="3" checked>Hiking<br>
                   <input type="radio" name="answer4" value="2">Swimming<br>
@@ -52,7 +52,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <p>adskfjandkjag</p>
+                <p class="questions">adskfjandkjag</p>
                 <div id="question5" class="radio">
                   <input type="radio" name="answer5" value="1" checked>Hiking<br>
                   <input type="radio" name="answer5" value="2">Swimming<br>
@@ -60,7 +60,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <p>adskfjandkjag</p>
+                <p class="questions">adskfjandkjag</p>
                 <div id="question6" class="radio">
                   <input type="radio" name="answer6" value="1" checked>Hiking<br>
                   <input type="radio" name="answer6" value="2">Swimming<br>
@@ -70,7 +70,7 @@
             </div>
             <div class="row">
               <div class="col-sm-6">
-                <p>adskfjandkjag</p>
+                <p class="questions">adskfjandkjag</p>
                 <div id="question7" class="radio">
                   <input type="radio" name="answer7" value="1" checked>Hiking<br>
                   <input type="radio" name="answer7" value="2">Swimming<br>
@@ -78,7 +78,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-                <p>adskfjandkjag</p>
+                <p class="questions">adskfjandkjag</p>
                 <div id="question8" class="radio">
                   <input type="radio" name="answer8" value="1" checked>Hiking<br>
                   <input type="radio" name="answer8" value="2">Swimming<br>
@@ -87,10 +87,20 @@
               </div>
             </div>
           </div>
-          <button type="submit" class="btn">Let's See!</button>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <button type="submit" class="btn-primary">Let's See!</button>
         </form>
-          <button onclick="getRandom()" class="btn">Random!</button>
-          <button onclick="location.reload()" class="btn">Restart!</button>
+              </div>
+              <div class="col-sm-4">
+                <button onclick="getRandom()" class="btn-primary">Random!</button>
+              </div>
+              <div class="col-sm-4">
+                <button onclick="location.reload()" class="btn-primary">Restart!</button>
+              </div>
+            </div>
+          </div>
       <h3>Animal Information for learning</h3>
       <div id="destination1">
         <p>Lorem ipsum dolor amet master cleanse man bun lomo photo booth disrupt pitchfork pop-up chicharrones tote bag irony coloring book cray lo-fi. 90's food truck hashtag green juice. Pour-over mumblecore skateboard, humblebrag church-key narwhal banjo snackwave palo santo neutra food truck sriracha. Mustache williamsburg cardigan thundercats. Kale chips disrupt snackwave pickled cold-pressed, whatever raw denim shoreditch leggings selvage. Lumbersexual sartorial farm-to-table, tbh poke portland truffaut migas gochujang freegan cliche letterpress mumblecore organic. Everyday carry intelligentsia hot chicken, PBR&B banh mi four loko fanny pack umami normcore selvage godard.</p>
