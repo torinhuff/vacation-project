@@ -60,6 +60,10 @@
   display: none;
 }
 
+#destination6 {
+  display: none;
+}
+
 .btn {
 	background: none;
   font-family: 'Roboto Condensed', sans-serif;

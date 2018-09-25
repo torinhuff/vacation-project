@@ -34,7 +34,7 @@ $(document).ready(function() {
 });
 
 function getRandom() {
-  var random = Math.random() * 40;
+  var random = Math.random() * 48;
 
   $("#questions").slideUp(400);
   $("html, body").animate({
@@ -47,30 +47,43 @@ function getRandom() {
     $("#destination3").hide();
     $("#destination4").hide();
     $("#destination5").hide();
+    $("#destination6").hide();
   } else if ((random > 8) && (random <= 16)) {
     $("#destination2").slideUp().show();
     $("#destination1").hide();
     $("#destination3").hide();
     $("#destination4").hide();
     $("#destination5").hide();
+    $("#destination6").hide();
   } else if ((random > 16) && (random <= 24)) {
     $("#destination3").slideUp().show();
     $("#destination2").hide();
     $("#destination1").hide();
     $("#destination4").hide();
     $("#destination5").hide();
+    $("#destination6").hide();
   } else if ((random > 24) && (random <= 32)) {
     $("#destination4").slideUp().show();
     $("#destination5").hide();
     $("#destination3").hide();
     $("#destination2").hide();
     $("#destination1").hide();
+    $("#destination6").hide();
   } else if ((random > 32) && (random <= 40)) {
     $("#destination5").slideUp().show();
     $("#destination4").hide();
     $("#destination3").hide();
     $("#destination2").hide();
     $("#destination1").hide();
+    $("#destination6").hide();
+  } else if ((random > 40) && (random <= 48)) {
+    $("#destination6").slideUp().show();
+    $("#destination4").hide();
+    $("#destination3").hide();
+    $("#destination2").hide();
+    $("#destination1").hide();
+    $("#destination5").hide();
   }
+
 
 }
