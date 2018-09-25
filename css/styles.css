@@ -104,3 +104,22 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+#follow {
+  text-align: center;
+}
+
+#icons {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+#icons:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

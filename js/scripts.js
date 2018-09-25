@@ -11,16 +11,21 @@ $(document).ready(function() {
     var answer8 = parseInt($("input:radio[name=answer8]:checked").val());
     var result = answer1 + answer2 + answer3 + answer4 + answer5 + answer6 + answer7 + answer8;
 
+    $("#questions").slideUp(400);
+    $("html, body").animate({
+      scrollTop: "10px"
+    });
+
     if (result <= 8) {
-      $("#destination1").slideDown().show();
+      $("#destination1").slideUp().show();
       $("#destination2").hide();
       $("#destination3").hide();
     } else if ((result > 8) && (result <= 16)) {
-      $("#destination2").slideDown().show();
+      $("#destination2").slideUp().show();
       $("#destination1").hide();
       $("#destination3").hide();
     } else if ((result > 16) && (result <= 24)) {
-      $("#destination3").slideDown().show();
+      $("#destination3").slideUp().show();
       $("#destination2").hide();
       $("#destination1").hide();
     }
@@ -31,32 +36,37 @@ $(document).ready(function() {
 function getRandom() {
   var random = Math.random() * 40;
 
+  $("#questions").slideUp(400);
+  $("html, body").animate({
+    scrollTop: "10px"
+  });
+
   if (random <= 8) {
-    $("#destination1").slideDown().show();
+    $("#destination1").slideUp().show();
     $("#destination2").hide();
     $("#destination3").hide();
     $("#destination4").hide();
     $("#destination5").hide();
   } else if ((random > 8) && (random <= 16)) {
-    $("#destination2").slideDown().show();
+    $("#destination2").slideUp().show();
     $("#destination1").hide();
     $("#destination3").hide();
     $("#destination4").hide();
     $("#destination5").hide();
   } else if ((random > 16) && (random <= 24)) {
-    $("#destination3").slideDown().show();
+    $("#destination3").slideUp().show();
     $("#destination2").hide();
     $("#destination1").hide();
     $("#destination4").hide();
     $("#destination5").hide();
   } else if ((random > 24) && (random <= 32)) {
-    $("#destination4").slideDown().show();
+    $("#destination4").slideUp().show();
     $("#destination5").hide();
     $("#destination3").hide();
     $("#destination2").hide();
     $("#destination1").hide();
   } else if ((random > 32) && (random <= 40)) {
-    $("#destination5").slideDown().show();
+    $("#destination5").slideUp().show();
     $("#destination4").hide();
     $("#destination3").hide();
     $("#destination2").hide();
