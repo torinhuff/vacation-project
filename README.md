@@ -6,7 +6,7 @@
 
 ## Description
 
-This website will calculate the user's "perfect vacation destination" based on how they answer the survey questions. There are only three destinations that are available for display through the survey. However, they can also use the "Random" button to display any one of those three destinations, as well as three more "hidden" locations. There is also a "Restart" feature that allows the user to redo the survey at any point.
+This website will calculate the user's "perfect vacation destination" based on how they answer the survey questions. There are only three destinations that are available for display through the survey. However, they can also use the "Random" button to display any one of those three destinations, as well as three more "hidden" locations. There is also a "Restart" feature that allows the user to redo the survey at any point. The paragraph text for each of the destinations is derived from a "Hipster" lorem ipsum generator, but the "resources" links all lead to legitimate travel suggestions.
 
 ## Setup/Installation Requirements
 
